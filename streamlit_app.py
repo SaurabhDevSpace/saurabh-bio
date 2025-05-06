@@ -32,6 +32,16 @@ with st.container():
             st.write(exp["description"])
     st.write("---")
 
+# Internships
+with st.container():
+    st.header("Internships & Trainings")
+    for internship in data["job"]["internships"]:
+        with st.expander(internship["company"]):
+            st.write(f"**Role:** {internship['role']}")
+            st.write(f"**Technologies:** {internship['technologies']}")
+            st.write(f"**Duration:** {internship['duration']}")
+    st.write("---")
+
 # Technology Stack (previously labeled as Skills)
 with st.container():
     st.header("Technology Stack")
@@ -64,16 +74,6 @@ with st.container():
     st.header("Awards & Honors")
     for award in data["job"]["awards"]:
         st.write(f"- {award}")
-    st.write("---")
-
-# Internships
-with st.container():
-    st.header("Internships & Trainings")
-    for internship in data["job"]["internships"]:
-        with st.expander(internship["company"]):
-            st.write(f"**Role:** {internship['role']}")
-            st.write(f"**Technologies:** {internship['technologies']}")
-            st.write(f"**Duration:** {internship['duration']}")
     st.write("---")
 
 # Contact
