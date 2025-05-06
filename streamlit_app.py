@@ -81,9 +81,11 @@ with st.container():
     st.header("Contact")
     st.write(f"**Phone:** {data['job']['contact']['phone']}")
     st.write(f"**Email:** [{data['job']['contact']['email']}](mailto:{data['job']['contact']['email']})")
-    st.write(f"**LinkedIn:** [{data['job']['contact']['linkedin']}]({data['job']['contact']['linkedin']})")
     st.write(f"**Website:** [{data['job']['contact']['website']}]({data['job']['contact']['website']})")
+    st.write(f"**LinkedIn:** [{data['job']['contact']['linkedin']}]({data['job']['contact']['linkedin']})")
     st.write(f"**Medium:** [{data['job']['contact']['medium']}]({data['job']['contact']['medium']})")
+    st.write(f"**Instagram:** [{data['job']['contact']['instagram']}]({data['job']['contact']['instagram']})")
+
     st.write("---")
 
 # Photos
