@@ -6,7 +6,7 @@ with open('config.json') as f:
     data = json.load(f)
 
 # Set page configuration (sidebar remains collapsed)
-st.set_page_config(page_title="Saurabh Brahmankar - Job Profile", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Saurabh Brahmankar - Job Profile", layout="wide", initial_sidebar_state="collapsed", page_icon="🙂")
 
 # Header section with profile picture, name, and tagline
 col1, col2 = st.columns([1, 3])
