@@ -23,6 +23,13 @@ with st.container():
     st.write(data["job"]["about_me"])
     st.write("---")
 
+# Patents
+with st.container():
+    st.header("Patents")
+    for patent in data["job"]["patents"]:
+        st.write(f"- {patent}")
+    st.write("---")
+    
 # Work Experience
 with st.container():
     st.header("Work Experience")
@@ -60,13 +67,6 @@ with st.container():
             st.write(f"CGPA: {edu['cgpa']}")
         if "marks" in edu:
             st.write(f"Marks: {edu['marks']}")
-    st.write("---")
-
-# Patents
-with st.container():
-    st.header("Patents")
-    for patent in data["job"]["patents"]:
-        st.write(f"- {patent}")
     st.write("---")
 
 # Awards
