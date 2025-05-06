@@ -7,7 +7,7 @@
     "job": {
         "about_me": "Passionate and innovative Data Scientist with over 8 years+ of Software Engineering experience leveraging data to solve complex, real-time business challenges. Proficient in programming and well-versed in Data Science methodologies and Machine Learning (AI/ML). Proven track record in developing scalable AI/ML solutions, driving actionable insights, and delivering business value through data-driven decision-making.",
         "contact": {
-            "phone": "+91-8055809596",
+            "phone": "+91-80558095XX",
             "email": "brahmankarsaurabh@gmail.com",
             "linkedin": "https://www.linkedin.com/in/saurabh-brahmankar-19841a105",
             "website": "https://saurabh-bio.streamlit.app/",
@@ -18,13 +18,13 @@
             {
                 "company": "Ciena India Private Ltd., Pune",
                 "role": "Data Scientist",
-                "duration": "2020 – Present",
+                "duration": "2021 – Present",
                 "description": "Roles: Application Design & Architect, Lead, and Developer\nKey Projects:\n- Fault Alarms Prioritization: Developed AutoML models to dynamically learn true alarm severity based on user interactions, enhancing incident response efficiency.\n- Anomalies & Predictions: Implemented advanced anomaly detection and KPI forecasting models to proactively mitigate potential issues.\n- Resource Exhaustion Forecast: Facilitated just-in-time infrastructure rollout through predictive analytics.\n- Cross & Same Layer Stitching: Enhanced topology accuracy using reliable PM data to reduce fallout.\n- Fiber QoS Fingerprint Analysis: Built models to detect, localize, and mitigate Fiber’s QoS degradation issues.\n- Business Impact Prioritization: Service/node issue resolution urgency analysis based on impact significance.\n- Silent Fault Detection: Automated root-cause localization for QoS issues in operational blind spots.\n- AI/ML Studio: Contributions to a platform for hosting and executing AI models and pipelines, that enables Bring-Your-Own-ML model management with versioning and rollback features.\n- GenAI Powered Help: Solutions for documentation summarization and natural language interaction.\n- Agentic AI Capabilities: Working on the development of autonomous AI agents using LangFlow, LangGraph, and MCP & A2A servers, LangFuse, enabling dynamic workflow orchestration, real-time monitoring, and scalable AI-driven decision-making for network optimization.\n \nPOCs and Research Projects:\n- GenAI Powered Automated Dashboard Generation: Developing a dynamic dashboard with data visualization & problem summarization.\n- GenAI Powered RA (Resource Adapter) Generation: Solving the problem of developers having to manually generate RAs, which takes time and effort."
             },
             {
                 "company": "Tech Mahindra Ltd., Pune",
                 "role": "Software Engineer (ML)",
-                "duration": "2016 – 2020",
+                "duration": "2017 – 2021",
                 "description": "Roles: Application Design & Architect, Lead, and Developer\nKey Projects:\n- Enterprise Project Delivery Intelligence: Designed and led the development of a predictive analytics tool for deployment cycle management, providing immersive dashboards with actionable insights into past, ongoing, and future events.\n- Auto Self-Heal System: Developed a machine learning-based case classification and queue assignment tool, improving resolution times and operational efficiency.\n- Predictive Analysis: Leveraged text summarization and image-to-text conversion models to streamline decision-making processes for delivery and voice-powered AI engines."
             }
         ],
