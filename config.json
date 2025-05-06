@@ -1,0 +1,82 @@
+{
+    "header": {
+        "name": "SAURABH D. BRAHMANKAR",
+        "tagline": "Data Scientist | Innovator | Tech Enthusiast",
+        "profile_picture": "photos/photo4.jpeg"
+    },
+    "job": {
+        "about_me": "Passionate and innovative Data Scientist with over 8 years+ of Software Engineering experience leveraging data to solve complex, real-time business challenges. Proficient in programming and well-versed in Data Science methodologies and Machine Learning (AI/ML). Proven track record in developing scalable AI/ML solutions, driving actionable insights, and delivering business value through data-driven decision-making.",
+        "contact": {
+            "phone": "+91-8055809596",
+            "email": "brahmankarsaurabh@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/saurabh-brahmankar-19841a105",
+            "website": "http://saurabhbrahmankar.pythonanywhere.com",
+            "medium": "https://medium.com/@brahmankarsaurabh"
+        },
+        "work_experience": [
+            {
+                "company": "Ciena India Private Ltd., Pune",
+                "role": "Data Scientist",
+                "duration": "2020 – Present",
+                "description": "Roles: Application Design & Architect, Lead, and Developer\nKey Projects:\n- Fault Alarms Prioritization: Developed AutoML models to dynamically learn true alarm severity based on user interactions, enhancing incident response efficiency.\n- Anomalies & Predictions: Implemented advanced anomaly detection and KPI forecasting models to proactively mitigate potential issues.\n- Resource Exhaustion Forecast: Facilitated just-in-time infrastructure rollout through predictive analytics.\n- Cross & Same Layer Stitching: Enhanced topology accuracy using reliable PM data to reduce fallout.\n- Fiber QoS Fingerprint Analysis: Built models to detect, localize, and mitigate Fiber’s QoS degradation issues.\n- Business Impact Prioritization: Service/node issue resolution urgency analysis based on impact significance.\n- Silent Fault Detection: Automated root-cause localization for QoS issues in operational blind spots.\n- AI/ML Studio: Contributions to a platform for hosting and executing AI models and pipelines, that enables Bring-Your-Own-ML model management with versioning and rollback features.\n- GenAI Powered Help: Solutions for documentation summarization and natural language interaction.\n- Agentic AI Capabilities: Working on the development of autonomous AI agents using LangFlow, LangGraph, and MCP & A2A servers, LangFuse, enabling dynamic workflow orchestration, real-time monitoring, and scalable AI-driven decision-making for network optimization.\n \nPOCs and Research Projects:\n- GenAI Powered Automated Dashboard Generation: Developing a dynamic dashboard with data visualization & problem summarization.\n- GenAI Powered RA (Resource Adapter) Generation: Solving the problem of developers having to manually generate RAs, which takes time and effort."
+            },
+            {
+                "company": "Tech Mahindra Ltd., Pune",
+                "role": "Software Engineer (ML)",
+                "duration": "2016 – 2020",
+                "description": "Roles: Application Design & Architect, Lead, and Developer\nKey Projects:\n- Enterprise Project Delivery Intelligence: Designed and led the development of a predictive analytics tool for deployment cycle management, providing immersive dashboards with actionable insights into past, ongoing, and future events.\n- Auto Self-Heal System: Developed a machine learning-based case classification and queue assignment tool, improving resolution times and operational efficiency.\n- Predictive Analysis: Leveraged text summarization and image-to-text conversion models to streamline decision-making processes for delivery and voice-powered AI engines."
+            }
+        ],
+        "skills": {
+            "technical": ["Python", "Java", "Scala", "Cobol", "C++", "Supervised Learning", "Unsupervised Learning", "NLP", "Deep Learning (ANN, RNN, Transformer models)", "Generative AI (LLM)", "Prompt Engineering", "Naive Bayes", "Random Forests", "Decision Trees", "SVM", "Gradient Boosting", "TensorFlow", "Keras", "Scikit-Learn", "PyCaret", "OpenCV", "Spacy", "Pandas", "NumPy", "Flask", "Django", "Apache Kafka", "Docker", "Kubernetes", "Jupyter", "IntelliJ IDEA", "MongoDB", "PostgreSQL", "Hive", "Hadoop", "Spark", "AWS", "GCP", "Redis", "Gen-AI", "MCP server Protocol", "A2A Protocol","LangFlow", "LangGraph", "LangFuse", "LangChain"],
+            "soft": ["Excellent problem-solving and analytical skills", "Strong leadership and communication abilities", "Proven track record of working independently and collaboratively in team settings", "Ability to innovate and drive actionable insights from complex data"]
+        },
+        "education": [
+            {
+                "degree": "B.E. (Electronics & Telecommunication)",
+                "institution": "G. H. Raisoni College of Engineering (Autonomous)",
+                "year": "2016",
+                "cgpa": "9.13/10"
+            }
+        ],
+        "patents": [
+            "Automatic Geolocation Detection for Network Inventory Systems - US/20220385539/A1",
+            "Root-Cause Analysis and Closed-loop Automation against Wi-Fi Failures using ML - US 11,677,613/B2",
+            "Forecasting Recurring Anomalies in Time Series Data - CPRB: 10.3182",
+            "Using ML to Distinguish Between Access & Uplinks Ports in Telecom Networks - CPRB: 220929/1",
+            "Network Alarm Prioritization using Hybrid Boosting Auto-ML System - US/11956129/B2",
+            "Automatic Suppression of Non-actionable Network Alarms using ML - US/20230076662/A1"
+        ],
+        "awards": [
+            "Ciena’s 'Bravo' Award: 10+ times for significant contributions to AI apps, research projects, & patents.",
+            "Tech Mahindra’s 'Pat on Back' Award: 5+ times for developing complex codes and POC work.",
+            "Tech Mahindra Hackathon Winner: Twice for building RPA solutions with AI integration.",
+            "'Man of the Match': Awarded in official season-ball cricket tournaments."
+        ],
+        "internships": [
+            {
+                "company": "Persistent Systems Ltd., Nagpur",
+                "role": "Application Development & DB Handling (Architecture/Schema)",
+                "technologies": "Spring Boot, Hibernate, Apache Maven, Java, AngularJS, Apache Solr, Eclipse IDE, Hive, HDFS, SQOOP, MongoDB",
+                "duration": "Aug 2015 - Mar 2016"
+            },
+            {
+                "company": "InfoSai Pvt. Ltd., Nagpur",
+                "role": "Application Development",
+                "technologies": "Java, Eclipse IDE, MS-Excel",
+                "duration": "Jul 2015 - Jan 2016"
+            },
+            {
+                "company": "BSNL India, Nagpur",
+                "role": "Trainee",
+                "technologies": "Telecom instruments and software",
+                "duration": "Jul 2014 - Jul 2015"
+            }
+        ]
+    },
+    "photos": [
+        "photos/photo1.jpeg",
+        "photos/photo2.jpeg",
+        "photos/photo3.jpeg"
+    ]
+}

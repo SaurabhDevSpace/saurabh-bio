@@ -1,19 +1,32 @@
-# 🎈 Blank app template
+## Job Profile Web App
 
-A simple Streamlit app template for you to modify!
+## Overview
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+This Streamlit web app showcases a professional job profile for Saurabh Brahmankar, a Data Scientist with expertise in AI/ML and innovative tech solutions.
 
-### How to run it on your own machine
+## Features
 
-1. Install the requirements
+- Displays work experience, technology stack, education, patents, awards, internships, and contact details.
+- Includes a photo gallery with consistent image widths.
+- Uses Streamlit's native components for a clean and modern design.
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## Setup Instructions
 
-2. Run the app
+1. **Install Dependencies**:
+   - Install Streamlit: `pip install streamlit`
+2. **Prepare Files**:
+   - Save the Python code as `app.py`.
+   - Save the JSON configuration as `config.json` in the same directory.
+   - Ensure the photos (`photos/photo1.jpeg`, `photos/photo2.jpeg`, `photos/photo3.jpeg`) are in the correct directory.
+3. **Run the App**:
+   - Run the app: `streamlit run app.py`
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Customization
+
+- Edit `config.json` to update details or add more photos.
+
+## Technologies Used
+
+- **Streamlit**: For building the web app.
+- **Python**: Core programming language.
+- **JSON**: For configuration data.
