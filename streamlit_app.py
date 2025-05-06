@@ -49,14 +49,16 @@ with st.container():
             st.write(f"**Duration:** {internship['duration']}")
     st.write("---")
 
-# Technology Stack (previously labeled as Skills)
+# Technical Skills
 with st.container():
-    st.header("Technology Stack")
-    st.subheader("Technical Skills")
-    st.write(", ".join(data["job"]["skills"]["technical"]))
-    st.subheader("Soft Skills")
+    st.header("Technical Skills")
+    for category, skills in data["job"]["skills"]["technical"].items():
+        st.subheader(category)
+        st.write(", ".join(skills))
+    st.header("Soft Skills")
     st.write(", ".join(data["job"]["skills"]["soft"]))
     st.write("---")
+
 
 # Education
 with st.container():

@@ -29,7 +29,21 @@
             }
         ],
         "skills": {
-            "technical": ["Python", "Java", "Scala", "Cobol", "C++", "Supervised Learning", "Unsupervised Learning", "NLP", "Deep Learning (ANN, RNN, Transformer models)", "Generative AI (LLM)", "Prompt Engineering", "Naive Bayes", "Random Forests", "Decision Trees", "SVM", "Gradient Boosting", "TensorFlow", "Keras", "Scikit-Learn", "PyCaret", "OpenCV", "Spacy", "Pandas", "NumPy", "Flask", "Django", "Apache Kafka", "Docker", "Kubernetes", "Jupyter", "IntelliJ IDEA", "MongoDB", "PostgreSQL", "Hive", "Hadoop", "Spark", "AWS", "GCP", "Redis", "Gen-AI", "MCP server Protocol", "A2A Protocol","LangFlow", "LangGraph", "LangFuse", "LangChain"],
+            "technical": {
+                "Programming Languages": ["Python", "Java", "Scala", "Cobol", "C++"],
+                "AI/ML & Data Science": ["Supervised & Unsupervised Learning", "NLP", "Deep Learning (ANN, RNN, Transformer models)", "Generative AI (LLM)", "Prompt Engineering", "TensorFlow", "Keras", "PyCaret", "OpenCV", "Spacy", "MLFlow"],
+                "Agentic AI & Chatbots": ["LangFlow", "LangGraph", "LangFuse", "LangChain", "Chatbots", "Agentic AI Framework", "Agents Builder"],
+                "Protocols": ["MCP Server", "A2A", "REST APIs", "WebSocket"],
+                "Web Frameworks": ["Flask", "Django", "FastAPI"],
+                "Big Data & Streaming": ["Apache Kafka", "Hive", "Hadoop", "PySpark","Spark", "Airflow"],
+                "DevOps & Containers": ["Docker", "Kubernetes"],
+                "Development Tools": ["Jupyter", "IntelliJ IDEA"],
+                "Databases & Storage": ["MongoDB", "PostgreSQL", "Redis", "Postgres", "Neo4J GraphDB", "Clickhouse", "MinIO", "Elastic Search"],
+                "Cloud Platforms": ["AWS", "GCP", "Azure", "OpenStack"],
+                "Data Visualization": ["Tableau", "Grafana", "Power BI"],
+                "Version Control": ["Git", "GitHub", "Bitbucket"],
+                "CI/CD": ["Jenkins", "Teamcity"]
+            }, 
             "soft": ["Excellent problem-solving and analytical skills", "Strong leadership and communication abilities", "Proven track record of working independently and collaboratively in team settings", "Ability to innovate and drive actionable insights from complex data"]
         },
         "education": [
