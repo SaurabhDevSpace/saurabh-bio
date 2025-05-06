@@ -94,7 +94,7 @@ with st.container():
 
 # Photos
 with st.container():
-    st.header("Me 📸")
+    st.header("Me 🙂")
     cols = st.columns(3)
     for i, photo in enumerate(data["photos"]):
         cols[i % 3].image(photo, use_container_width=True)
