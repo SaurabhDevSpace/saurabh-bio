@@ -20,20 +20,20 @@ st.write("---")
 
 # About Me
 with st.container():
-    st.header("About Me")
+    st.header("About Me 👋")
     st.write(data["job"]["about_me"])
     st.write("---")
 
 # Patents
 with st.container():
-    st.header("Patents")
+    st.header("Patents 📜")
     for patent in data["job"]["patents"]:
         st.write(f"- {patent}")
     st.write("---")
     
 # Work Experience
 with st.container():
-    st.header("Work Experience")
+    st.header("Work Experience 💼")
     for exp in data["job"]["work_experience"]:
         with st.expander(f"{exp['company']} - {exp['role']}", expanded=False):
             st.write(f"**Duration:** {exp['duration']}")
@@ -42,7 +42,7 @@ with st.container():
 
 # Internships
 with st.container():
-    st.header("Internships & Trainings")
+    st.header("Internships & Trainings 🛠️")
     for internship in data["job"]["internships"]:
         with st.expander(internship["company"]):
             st.write(f"**Role:** {internship['role']}")
@@ -52,18 +52,19 @@ with st.container():
 
 # Technical Skills
 with st.container():
-    st.header("Technical Skills")
+    st.header("Technical Skills 💻")
     for category, skills in data["job"]["skills"]["technical"].items():
         st.subheader(category)
         st.write(", ".join(skills))
-    st.header("Soft Skills")
+    
+    st.header("Soft Skills 🤝")
     st.write(", ".join(data["job"]["skills"]["soft"]))
     st.write("---")
 
 
 # Education
 with st.container():
-    st.header("Education")
+    st.header("Education 🎓")
     for edu in data["job"]["education"]:
         st.write(f"**{edu['degree']}** - {edu.get('institution', '')} ({edu.get('year', '')})")
         if "cgpa" in edu:
@@ -74,14 +75,14 @@ with st.container():
 
 # Awards
 with st.container():
-    st.header("Awards & Honors")
+    st.header("Awards & Honors 🏆")
     for award in data["job"]["awards"]:
         st.write(f"- {award}")
     st.write("---")
 
 # Contact
 with st.container():
-    st.header("Contact")
+    st.header("Contact 📞")
     st.write(f"**Phone:** {data['job']['contact']['phone']}")
     st.write(f"**Email:** [{data['job']['contact']['email']}](mailto:{data['job']['contact']['email']})")
     st.write(f"**Personal Website:** [{data['job']['contact']['website']}]({data['job']['contact']['website']})")
@@ -93,7 +94,7 @@ with st.container():
 
 # Photos
 with st.container():
-    st.header("Me")
+    st.header("Me 📸")
     cols = st.columns(3)
     for i, photo in enumerate(data["photos"]):
         cols[i % 3].image(photo, use_container_width=True)
