@@ -27,7 +27,7 @@ with st.container():
 with st.container():
     st.header("Work Experience")
     for exp in data["job"]["work_experience"]:
-        with st.expander(f"{exp['company']} - {exp['role']}"):
+        with st.expander(f"{exp['company']} - {exp['role']}", expanded=True):
             st.write(f"**Duration:** {exp['duration']}")
             st.write(exp["description"])
     st.write("---")
