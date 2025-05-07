@@ -4,6 +4,15 @@
         "tagline": "Data Scientist👨🏼‍💻 | Innovator💡 | Adventurer🏄‍♂️",
         "profile_picture": "photos/photo4.jpeg"
     },
+    "personal": {
+        "introduction": "Hi, I’m Saurabh! I’m a tech enthusiast and software professional with a knack for innovation—I’ve even filed several US patents in AI/ML! Grounded, humorous, and ambitious, I’m also a fitness lover who’s always up for an adventure—whether it’s hiking in nature, playing sports, or exploring new spots. And I’m a big foodie too!",
+        "dob": "15-Jan-1994",
+        "height": "5'11\"",
+        "education": "Bachelor of Engineering | 2016 | CGPA: 9.13/10",
+        "passions": ["Innovation", "Travel / Sightseeing", "Trekking / Adventure sports", "Health & Fitness", "Yoga / Meditation", "Badminton", "Cricket", "Chess", "Video / Computer games", "Cooking", "Photography"],
+        "favorite_reads": ["Science Fiction", "Humour", "Business / Occupational", "Self-help", "Philosophy / Spiritual"],
+        "languages": ["English", "Hindi", "Marathi"]
+    },
     "job": {
         "about_me": "Passionate and innovative Data Scientist with over 8 years+ of Software Engineering experience leveraging data to solve complex, real-time business challenges. Proficient in programming and well-versed in Data Science methodologies and Machine Learning (AI/ML). Proven track record in developing scalable AI/ML solutions, driving actionable insights, and delivering business value through data-driven decision-making.",
         "contact": {

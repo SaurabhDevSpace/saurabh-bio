@@ -94,7 +94,17 @@ with st.container():
 
 # Photos
 with st.container():
-    st.header("Me 🙂")
+    # Personal Details
+    st.header("A Glimpse Into My Life 🌟")
+    # st.write(f"**🎓 Education:** {data['personal']['education']}")
+    st.write(f"**🔥 My Passions:** {', '.join(data['personal']['passions'])}")
+    st.write(f"**📖 Favorite Reads:** {', '.join(data['personal']['favorite_reads'])}")
+    st.write(f"**🗣️ Languages Spoken:** {', '.join(data['personal']['languages'])}")
+    st.write(f"**🎂 DOB:** {data['personal']['dob']}")
+    # st.write(f"**Height:** {data['personal']['height']}")
+    # st.write("---")
+
+    st.subheader("📸")
     cols = st.columns(3)
     for i, photo in enumerate(data["photos"]):
         cols[i % 3].image(photo, use_container_width=True)
