@@ -156,3 +156,9 @@ def footer_section():
         unsafe_allow_html=True
     )
 # footer_section()
+
+# Thanks for Visiting
+with st.container():
+    st.subheader("Thanks for Visiting! 🙌")
+    st.write("I hope you enjoyed learning more about me. Have a great time ahead!")
+    st.write("---")
