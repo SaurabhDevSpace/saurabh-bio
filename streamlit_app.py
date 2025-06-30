@@ -12,7 +12,7 @@ st.set_page_config(page_title="Saurabh Brahmankar - Job Profile", layout="wide",
 # Header section with profile picture, name, and tagline
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image(data["header"]["profile_picture"], width=150, caption="Be Curious!")
+    st.image(data["header"]["profile_picture"], width=150, caption="Stay Curious!")
 with col2:
     st.title(data["header"]["name"])
     st.subheader(data["header"]["tagline"])
